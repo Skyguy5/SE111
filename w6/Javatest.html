@@ -17,31 +17,29 @@
     <h1>Week 6 day 1 | Javascript</h1>
 
     <script>
-        var num1 = 25
+        var hourly = prompt("Please enter your hourly pay: ")
 
-        var num2 = 15
+        var hrworked = prompt("Please enter your hours worked this week: ")
 
-        var num3 = 36
+        prompt("Please enter your tax rate: ")
 
-        var sum = num1 + num2 + num3
+        var tax = .20
 
-        alert(`The sum is: \n${sum}`)
 
-        console.log(sum)
+        hrwrk = Number(hrworked)
 
-        prompt("This is a prompt that doesn't store the value!")
+        //Keeping this commented since using 20% for tax rate 
+        //tx = Number(tax)
 
-        var name = prompt("This is a prompt that does store the value! Please enter your Last Name: ")
+        hrly = Number(hourly)
 
-        alert(`Your last name is: ${name}`)
+        var gross = hrwrk * hrly
 
-        var num = prompt("Enter a number to multiply by 13.2: ")
+        var taxed = gross * tax
 
-        num = Number(num)
+        var net = gross - taxed
 
-        var multi = num * 13.2
-
-        alert(`${num} * 13.2 = ${multi}`)
+        alert(`Gross pay: $${gross} \nUncle Sam's Share: $${taxed} \nNet Pay: $${net}`)
         console.log(`The multi value is: ${multi}`)
 
     </script>
