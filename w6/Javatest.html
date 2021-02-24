@@ -35,9 +35,15 @@
 
         var gross = hrwrk * hrly
 
+        var g = gross.toFixed(2)
+
         var taxed = gross * tax
 
+        var t = taxed.toFixed(2)
+
         var net = gross - taxed
+
+        var n = net.toFixed(2)
 
         alert(`Gross pay: $${gross} \nUncle Sam's Share: $${taxed} \nNet Pay: $${net}`)
         console.log(`The multi value is: ${multi}`)
