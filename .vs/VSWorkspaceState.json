@@ -6,8 +6,10 @@
     "\\w1-bio\\images",
     "\\w4-movie",
     "\\w4-movie\\images",
-    "\\w5_form_files"
+    "\\w5_form_files",
+    "\\w6",
+    "\\w7_assignment"
   ],
-  "SelectedNode": "\\w6",
+  "SelectedNode": "\\w4-movie\\cast.html",
   "PreviewInSolutionExplorer": false
 }
